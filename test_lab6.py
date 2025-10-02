@@ -1,6 +1,7 @@
 import unittest
 from Lab6 import factorial, fibonacci, is_prime
 
+
 # Test case for factorial() function
 def test_factorial():
     assert factorial(0) == 1
@@ -9,13 +10,18 @@ def test_factorial():
     assert factorial(7) == 5040
     assert factorial(10) == 3628800
 
+
 # Test case for fibonacci() function
 def test_fibonacci():
     assert fibonacci(1) == 0
     assert fibonacci(2) == 1
+    assert fibonacci(3) == 1
+    assert fibonacci(4) == 2
     assert fibonacci(5) == 3
+    assert fibonacci(6) == 5
     assert fibonacci(7) == 8
-    assert fibonacci(8) == 11
+    assert fibonacci(8) == 13
+
 
 # Test case for is_prime() function
 def test_is_prime():
@@ -26,6 +32,7 @@ def test_is_prime():
     assert is_prime(15) == False
     assert is_prime(17) == True
     assert is_prime(19) == True
+
 
 if __name__ == '__main__':
     unittest.main()
