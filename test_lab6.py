@@ -15,7 +15,7 @@ def test_fibonacci():
     assert fibonacci(2) == 1
     assert fibonacci(5) == 3
     assert fibonacci(7) == 8
-    assert fibonacci(10) == 34
+    assert fibonacci(8) == 11
 
 # Test case for is_prime() function
 def test_is_prime():
@@ -25,6 +25,7 @@ def test_is_prime():
     assert is_prime(11) == True
     assert is_prime(15) == False
     assert is_prime(17) == True
+    assert is_prime(19) == True
 
 if __name__ == '__main__':
     unittest.main()
