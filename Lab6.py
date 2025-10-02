@@ -2,11 +2,15 @@ import math
 
 # Function 1: User-Defined Function - Factorial
 # This function calculates the factorial of a number using recursion.
-
+def factorial(n):
+    pass # replace with your code
 
 # Function 2: User-Defined Function - Fibonacci
 # This function returns the nth Fibonacci number using recursion.
-
+def fibonacci(n):
+    pass # replace with your code
 
 # Function 3: User-Defined Function - Prime Check
 # This function checks if a number is prime.
+def is_prime(n):
+    pass # replace with your code
